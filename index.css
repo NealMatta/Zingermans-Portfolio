@@ -1,0 +1,48 @@
+
+body {
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+img {
+  width: 100%;
+  border-radius: 5%;
+
+}
+
+#intro {
+  font-family: 'PT Sans', sans-serif;
+  border-bottom: 4px solid #ff822e;
+  padding: 50px 20px;
+}
+
+#intro h1 {
+  color: #97063a;
+  font-weight: 700;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 4px solid #ff822e;
+}
+
+#desc {
+  padding: 5% 0;
+}
+
+#desc p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+#Job-Questions {
+  background: linear-gradient(to bottom left, rgba(230, 230, 230, 0) , rgba(230, 230, 230, 1) );
+  font-family: 'PT Sans', sans-serif;
+  padding: 50px 20px;
+}
+
+ol {
+  font-size: 1.2rem;
+}
+
+ol li {
+  font-weight: 600;
+}
