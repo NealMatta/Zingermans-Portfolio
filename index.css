@@ -1,15 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'PT Sans', sans-serif;
-
 }
 
-img {
-  width: 100%;
-  border-radius: 5%;
 
-}
-
+/* ==============================
+          Why I did This
+============================== */
 #intro {
   font-family: 'PT Sans', sans-serif;
   border-bottom: 4px solid #ff822e;
@@ -24,6 +24,26 @@ img {
   border-bottom: 4px solid #ff822e;
 }
 
+#nav {
+  padding-bottom: 40px;
+}
+
+#nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#nav ul li {
+  display: inline;
+  padding-right: 40px;
+}
+
+#nav li a {
+  text-transform: uppercase;
+  color: #97063a;
+  font-weight: 700;
+}
+
 #desc {
   padding: 5% 0;
 }
@@ -33,16 +53,43 @@ img {
   margin-bottom: 0;
 }
 
-#Job-Questions {
-  background: linear-gradient(to bottom left, rgba(230, 230, 230, 0) , rgba(230, 230, 230, 1) );
-  font-family: 'PT Sans', sans-serif;
-  padding: 50px 20px;
+img {
+  width: 100%;
+  border-radius: 5%;
 }
 
-ol {
+/* ==============================
+          Job Questions
+============================== */
+
+#Job-Questions {
+  background: linear-gradient(to bottom left, rgba(230, 230, 230, 0), rgba(230, 230, 230, 1));
+  font-family: 'PT Sans', sans-serif;
+  border-bottom: 4px solid #ff822e;
+  padding: 50px 20px;
+
+}
+
+#Job-Questions ol {
   font-size: 1.2rem;
 }
 
-ol li {
+#Job-Questions ol li {
   font-weight: 600;
+}
+
+/* ==============================
+          Contact Me
+============================== */
+
+#Contact {
+  font-family: 'PT Sans', sans-serif;
+  padding: 50px 20px;
+  background: white;
+  border-bottom: 4px solid #ff822e;
+}
+
+#Contact #content {
+  padding-top: 20px;
+  text-align: center;
 }
